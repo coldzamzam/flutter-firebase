@@ -46,6 +46,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '243700411753',
     projectId: 'flutter-firebase-c9651',
     authDomain: 'flutter-firebase-c9651.firebaseapp.com',
+    databaseURL: 'https://flutter-firebase-c9651-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-firebase-c9651.firebasestorage.app',
     measurementId: 'G-B3YCN98VR4',
   );
@@ -55,6 +56,7 @@ class DefaultFirebaseOptions {
     appId: '1:243700411753:android:2c96c7489d31e714c2a1f8',
     messagingSenderId: '243700411753',
     projectId: 'flutter-firebase-c9651',
+    databaseURL: 'https://flutter-firebase-c9651-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-firebase-c9651.firebasestorage.app',
   );
 
@@ -63,6 +65,7 @@ class DefaultFirebaseOptions {
     appId: '1:243700411753:ios:6c30109b28233ee9c2a1f8',
     messagingSenderId: '243700411753',
     projectId: 'flutter-firebase-c9651',
+    databaseURL: 'https://flutter-firebase-c9651-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-firebase-c9651.firebasestorage.app',
     iosBundleId: 'com.example.flutterFirebase',
   );
@@ -72,6 +75,7 @@ class DefaultFirebaseOptions {
     appId: '1:243700411753:ios:6c30109b28233ee9c2a1f8',
     messagingSenderId: '243700411753',
     projectId: 'flutter-firebase-c9651',
+    databaseURL: 'https://flutter-firebase-c9651-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-firebase-c9651.firebasestorage.app',
     iosBundleId: 'com.example.flutterFirebase',
   );
@@ -82,7 +86,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '243700411753',
     projectId: 'flutter-firebase-c9651',
     authDomain: 'flutter-firebase-c9651.firebaseapp.com',
+    databaseURL: 'https://flutter-firebase-c9651-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-firebase-c9651.firebasestorage.app',
     measurementId: 'G-WWGBE63364',
   );
+
 }
