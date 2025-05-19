@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'firebase_options.dart';
+import 'splash_screen.dart';
 
 Future<void> main() async {
   await Firebase.initializeApp(
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(), // ganti dari MyHomePage
+      home: SplashScreen(), // ganti dari MyHomePage
 
     );
   }
